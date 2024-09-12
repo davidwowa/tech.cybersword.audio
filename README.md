@@ -1,3 +1,7 @@
+# tech.cybersword.audio  
+
+Tool for media(mp3,wav,ogg,aiff) files generation with injected payloads.  
+
 # Maven build  
 `~/java_env/maven/bin/mvn archetype:generate -DgroupId=tech.cybersword -DartifactId=tech.cybersword.audio -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`  
 # build  
@@ -15,9 +19,7 @@
 
 # payloads  
 
-- https://github.com/payloadbox/command-injection-payload-list
-- https://github.com/payloadbox/xss-payload-list
-- 
+- https://github.com/davidwowa/tech.cybersword.payloads
 
 # diff between files  
 `diff file1 file2 --text`
